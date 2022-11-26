@@ -1,0 +1,35 @@
+h3 {
+  margin-top: 2rem;
+}
+
+.exchange-rates {
+  flex-direction: column;
+  padding: 4rem;
+  background: linear-gradient(90deg, #4497db 0%, #3071a7 50%, #3c8cce 100%);
+}
+
+.rate {
+  border: 1px solid;
+  filter: drop-shadow(2px 2px 2px);
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 1rem 0;
+  background: linear-gradient(90deg, #3e83bb 0%, #265b86 50%, #4094d8 100%);
+}
+
+.rate:nth-of-type(2n + 1) {
+  background: linear-gradient(90deg, #2f6897 0%, #489bde 50%, #3c8cce 100%);
+}
+
+.rate-data {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 5px;
+}

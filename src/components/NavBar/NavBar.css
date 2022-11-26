@@ -1,0 +1,20 @@
+.nav {
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: calc(100% - 2rem);
+  border: 1px solid;
+  padding: 1rem;
+  background: linear-gradient(90deg, #4192d4 0%, #3071a7 50%, #3c8cce 100%);
+}
+
+.nav-icon-grp {
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.backCircle {
+  font-size: 2rem;
+}
