@@ -98,14 +98,14 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://relaxed-kleicha-1258c4.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Loom video <a name="live-demo"></a>
 
 > A video Explaining The app
-- [Loom Video]()
+- [Loom Video](https://www.loom.com/share/a014213e2c794cc391bad3926093b002)
 
 <!-- GETTING STARTED -->
 
