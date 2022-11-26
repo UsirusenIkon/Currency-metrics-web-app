@@ -31,6 +31,10 @@ h1 {
   display: block;
 }
 
+form {
+  margin: 1rem 0;
+}
+
 .currency-list {
   justify-content: center;
   flex-wrap: wrap;

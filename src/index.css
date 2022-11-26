@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: linear-gradient(90deg, #214a6b 0%, #3071a7 50%, #3c8cce 100%);
 }
 
 .flex {

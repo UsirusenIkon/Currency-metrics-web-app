@@ -1,5 +1,5 @@
-import { useEffect, React } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useEffect, React, useState } from 'react';
+import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { RiShareForwardLine } from 'react-icons/ri';
 import { fetchCurrency } from '../../redux/HomePage/homePage';
@@ -14,7 +14,19 @@ function HomePage() {
     dispatch(fetchCurrency());
   }, [dispatch]);
 
-  const currencies = useSelector((state) => state.homePage);
+  const [filter, setFilter] = useState('');
+  const [items, setItems] = useState(currencyData);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const values = items.filter((item) => item.name === filter);
+    setItems(values);
+    setFilter('');
+  };
+
+  const handleChange = (e) => {
+    setFilter(e.target.value);
+  };
 
   return (
     <div className="home-page">
@@ -26,25 +38,33 @@ function HomePage() {
           <span className="header-text">Currency Rates</span>
         </h1>
       </div>
+      <div>
+        <form onSubmit={handleSubmit}>
+          <input type="text" placeholder="Search.." value={filter} onChange={handleChange} />
+          <button type="submit">search</button>
+        </form>
+      </div>
       <div className="currency-list flex">
-        {currencies.map((currency, id) => (
+        {items.map((currency, id) => (
           <div
             className="currency flex"
             key={currency.id}
-            id={currencies.id}
+            id={currencyData.id}
           >
             <img
               className="home-img"
               src={currencyData[id].imageUrl}
               alt={currencyData[id].name}
             />
-            <span className="name">{currency.key}</span>
+            <span className="name">{currencyData[id].name}</span>
             <span className="forward flex">
               <Link to="/details">
                 <RiShareForwardLine
-                  id={currencies.id}
+                  id={currencyData[id].id}
                   onClick={() => (
-                    dispatch(fetchCurrencyDetails({ short: currency.data, full: currency.key }))
+                    dispatch(fetchCurrencyDetails(
+                      { short: currencyData[id].api },
+                    ))
                   )}
                 />
               </Link>
