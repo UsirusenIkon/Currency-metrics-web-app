@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage renders correctly 1`] = `
+<div
+  className="home-page"
+>
+  <div
+    className="header flex"
+  >
+    <span
+      className="img-cover"
+    >
+      <img
+        alt="currency and coin"
+        className="header-img"
+        src="coinCurrency.jpg"
+      />
+    </span>
+    <h1>
+      <span
+        className="header-text"
+      >
+        Coin
+      </span>
+      <span
+        className="header-text"
+      >
+        And
+      </span>
+      <span
+        className="header-text"
+      >
+        Currency Rates
+      </span>
+    </h1>
+  </div>
+  <div
+    className="currency-list flex"
+  />
+</div>
+`;
