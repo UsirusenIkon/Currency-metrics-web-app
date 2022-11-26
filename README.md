@@ -1,56 +1,155 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Currency-metrics-web-app
+<div align="left">
+  ![]()
+</div>
 
-## <a href="">Live Demo</a>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-   The objectives of this project is to:
+Modify this file to match your project and remove sections that don't apply.
 
-   - Use React documentation.
-   - Use React components.
-   - Use React props.
-   - Use React Router.
-   - Connect React and Redux.
-   - Handle events in a React app.
-   - Write integration tests with a React testing library.
-   - Use styles in a React app.
-   - Use React life cycle methods.
-   - Apply React best practices and language style guides in code.
-   - Use store, actions and reducers in React.
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With
-   - react & redux
-   - VS code
-   - Git and Github
+After you're finished please remove all the comments and instructions!
+-->
 
-## Getting Started
-   - To get a local copy up and running follow these simple example steps.
+<div align="center">
 
-## Prerequisites
-   - please install git in your computer.
-   - Also install a code editor.
-   - A web browser to view the output.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Setup
-   - To clone my repository run this command `https://github.com/UsirusenIkon/Currency-metrics-web-app.git`  
+  <h3><b>Microverse README Template</b></h3>
 
-## Run tests
-   For tracking linters errors locally you need to follow these steps:
+</div>
 
-   - After cloning the project you need to run this command
+<!-- TABLE OF CONTENTS -->
 
-         npm install This command will download all the dependencies of the project
+# 📗 Table of Contents
 
-   - For tracking the linter errors in HTML file run:
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Currency-metrics-web-app\] ](#-currency-metrics-web-app-)
+  - [🛠 Built With React, Redux](#-built-with-react-redux)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [🚀 Loom video ](#-loom-video-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+        - [npm](#npm)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Author ](#-author-)
+  - [Author](#author)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
-         npx hint .
+<!-- PROJECT DESCRIPTION -->
 
-   - For tracking the linter errors in CSS file run:
+# 📖 [Currency-metrics-web-app] <a name="about-project"></a>
 
-         npx stylelint "*/.{css,scss}"
+> **[Currency-metrics-web-app]** is a app providing detailed information on [currencies and exchange rate](https://restcountries.com/#api-endpoints-v3-region) so as to make an informed decision either a tourist, explorer ...
 
-## Deployment
-   - I used netlify to deploy my website
+## 🛠 Built With <a name="built-with">React, Redux</a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Currency exchange metrics is build with React and redux to provide the state management, countries API to fetch the data. 
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **[Snapshot of the details]**
+- **[unique UI/UX incorparating material ui features]**
+- **[Use of latest React router features]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+
+> Add a link to your deployed project.
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Loom video <a name="live-demo"></a>
+
+> A video Explaining The app
+- [Loom Video]()
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Set up your code editor
+
+### Prerequisites
+Setup GitHub.
+Install [node](https://nodejs.org/en/)
+Install react app using   `npx create=react-app`
+
+
+### Setup
+
+Remove unnecessary files
+##### npm
+Install react-router-dom
+install redux
+install react-redux
+install @reduxjs/toolkit
+
+
+### Usage
+
+To run the project, execute the following command:
+npm start
+
+
+### Run tests
+
+npm test
+
+
+
+### Deployment
+npm run build
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
 
 ## Author
    👤 **Usirusen Ikon**
@@ -58,20 +157,62 @@
    - Twitter: [@Usirusen_Ikon](https://twitter.com/Usirusen_Ikon)
    - LinkedIn: [Usirusen Ikon](https://www.linkedin.com/in/usirusen-ikon-775855174/)
 
-## 🤝 Contributing
-   - Contributions, issues, and feature requests are welcome!
-   - Feel free to check the [issues](https://github.com/issues) page.
 
-## Show your support
-   - Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
-   - Design and inspiration by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29) on Behance.
-   - Hat tip to Microvers and all the staff
-   - Thanks to My coding Partners
-   - Thanks to My Morning-session-group and Standup-team Partners and
-   - Thanks to Code Reviewers
+<!-- FUTURE FEATURES -->
 
+## 🔭 Future Features <a name="future-features"></a>
 
-## 📝 License
-   - This project is [MIT](https://github.com/UsirusenIkon/Currency-metrics-web-app/blob/feature/LICENSE) licensed.
+- [ ] **[Specific exchange rate on each currency or coin]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project create an issue with your comments.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for inspiring the design. 
+- [Rest Countries](https://restcountries.com/) for the API
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **[How to use createAsyncThunk()]**
+
+  - [createAsyncThunk](https://redux-toolkit.js.org/api/createAsyncThunk)
+
+- **[Quicker method to install the project]**
+
+  - [Clone the project and run npm install ]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
