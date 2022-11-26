@@ -7,15 +7,19 @@ const fetchCurrency = createAsyncThunk(FETCH_CURRENCY, async () => {
     'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.min.json',
   );
   const currencies = await response.json();
-  const newArr = Object.keys(currencies).map((key, id) => ({ id, key: currencies[key] }));
-  return newArr.slice(1, 12);
+  const newArr = Object.keys(currencies).map((key, id) => ({
+    id,
+    key: currencies[key],
+    data: key,
+  }));
+  return newArr.slice(1, 11);
 });
 
 const currencySlice = createSlice({
   name: 'currency',
   initialState: [],
   reducers: {
-    setCurrrency: (state, action) => ({
+    currrencyDetails: (state, action) => ({
       ...state,
       currency: [...action.payload],
     }),
@@ -26,5 +30,5 @@ const currencySlice = createSlice({
 });
 
 export default currencySlice.reducer;
-export const { setCurrrency } = currencySlice.actions;
+export const { currrencyDetails } = currencySlice.actions;
 export { fetchCurrency };
