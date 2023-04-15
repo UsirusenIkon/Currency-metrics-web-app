@@ -68,7 +68,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Currency exchange metrics is build with React and redux to provide the state management, countries API to fetch the data. 
+> Currency exchange metrics is built with React and redux to provide the state management, countries API to fetch the data. 
 
 <details>
   <summary>Client</summary>
